@@ -12,13 +12,13 @@ Vue.component('calification', {
               </p>
             </form>
           </div>
-          <div>
+          <div class="message">
             Hola {{name}} su calificación es de {{star}} estrellas
           </div>
           <div class="formulario">
             <form action="">
-            <label for="comm">Ingrese un comentario:</label>
-              <textarea id="comm" name="w3review" rows="4" cols="50">
+            <label for="comment">Ingrese un comentario:</label>
+              <textarea id="comment" name="w3review" rows="4" cols="50">
               </textarea>
               <input type="submit" value="Enviar">
             </form>
