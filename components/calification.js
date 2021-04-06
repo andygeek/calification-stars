@@ -13,7 +13,7 @@ Vue.component('calification', {
             </form>
           </div>
           <div>
-            Su calificación es de {{star}} estrellas
+            Hola {{name}} su calificación es de {{star}} estrellas
           </div>
           <div class="formulario">
             <form action="">
@@ -27,6 +27,7 @@ Vue.component('calification', {
         `,
   data() {
     return {
+      name: this.$route.params.name,
       star: this.$route.params.stars
     }
   },
