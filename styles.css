@@ -59,6 +59,12 @@ h3 {
   font-size: 15px;
   color: rgb(179, 179, 179);
 }
+.formulario form textarea {
+  border-radius: 5px;
+  margin-bottom: 5px;
+  margin-top: 3px;
+  border: 1px solid #828282;
+}
 .message {
   font-size: 15px;
   font-family: 'Montserrat', sans-serif;
