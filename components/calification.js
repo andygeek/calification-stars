@@ -20,7 +20,7 @@ Vue.component('calification', {
             <label for="comm">Ingrese un comentario:</label>
               <textarea id="comm" name="w3review" rows="4" cols="50">
               </textarea>
-              <input type="submit" value="Submit">
+              <input type="submit" value="Enviar">
             </form>
           </div>
         </div>

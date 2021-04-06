@@ -16,6 +16,7 @@ input[type='radio'] {
 }
 label {
   color: grey;
+  font-size: 20px;
 }
 .stars {
   direction: rtl;
@@ -46,6 +47,7 @@ body {
 h3 {
   margin: 0px;
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 .formulario form {
   display: flex;
